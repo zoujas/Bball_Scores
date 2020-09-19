@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bball Scores</string>
+    <string name="Team_A_Score">0</string>
+    <string name="Team_B_Score">"0</string>
+    <string name= "Game_Saved_Toast">"Game Saved</string>
+    <string name = "Saved_Toast"> Saved!</string>
+</resources>

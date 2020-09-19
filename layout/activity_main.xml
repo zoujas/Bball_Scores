@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+
+    <LinearLayout
+        android:layout_width="202dp"
+        android:layout_height="468dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="77dp"
+            android:layout_height="100dp"
+            android:text="RESET" />
+
+        <EditText
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team B" />
+
+        <TextView
+            android:id="@+id/Team_B_Score"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="0"
+            tools:text="0" />
+
+        <Button
+            android:id="@+id/B_3point"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="3 Pointer" />
+
+        <Button
+            android:id="@+id/B_2point"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="2 Pointer" />
+
+        <Button
+            android:id="@+id/B_free_throw"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Free Throw" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="202dp"
+        android:layout_height="468dp"
+        android:gravity="right"
+        android:orientation="vertical">
+        android:layout_weight="1"
+
+        <Button
+            android:id="@+id/Save"
+            android:layout_width="77dp"
+            android:layout_height="100dp"
+            android:text="SAVE" />
+
+        <EditText
+            android:id="@+id/Team_A_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team A" />
+
+        <TextView
+            android:id="@+id/Team_A_Score"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            tools:text="0" />
+
+        <Button
+            android:id="@+id/A_3point"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:text="3 Pointer" />
+
+        <Button
+            android:id="@+id/A_2point"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="2 Pointer" />
+
+        <Button
+            android:id="@+id/A_free_throw"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Free Throw"
+
+            />
+
+        <Button
+            android:id="@+id/display_button"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:text="DISPLAY" />
+
+    </LinearLayout>
+
+</LinearLayout>
